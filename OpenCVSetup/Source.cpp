@@ -94,7 +94,7 @@ int main()
 	// Calculating the Volume
 	Radius = Length > Height ? Length : Height;
 	Radius = Radius / 2;
-	Volume = 4 / 3 * 22 / 7 * Radius * Radius * Radius;
+	Volume = 2.0 / 3.0 * 22.0 / 7.0 * Radius * Radius * Radius;
 
 	// Displaying the Volume
 	printf("\n \n Volume: %f", Volume);
